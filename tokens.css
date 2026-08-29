@@ -1,0 +1,75 @@
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V4 */
+/* Hallmark · genre: atmospheric · macrostructure: Ecosystem Index · theme: custom dark-cobalt · enrichment: Tier-A CSS scene · nav: N13 · footer: Ft5 */
+:root {
+  --color-paper: oklch(12% 0.018 250);
+  --color-paper-2: oklch(16% 0.022 250);
+  --color-paper-3: oklch(21% 0.026 250);
+  --color-paper-4: oklch(27% 0.03 250);
+  --color-ink: oklch(94% 0.012 246);
+  --color-ink-2: oklch(80% 0.024 246);
+  --color-muted: oklch(66% 0.03 246);
+  --color-neutral: oklch(52% 0.032 246);
+  --color-rule: oklch(31% 0.034 250);
+  --color-rule-2: oklch(42% 0.04 250);
+  --color-accent: oklch(68% 0.18 218);
+  --color-accent-2: oklch(73% 0.13 172);
+  --color-accent-3: oklch(76% 0.17 86);
+  --color-accent-ink: oklch(12% 0.018 250);
+  --color-success: oklch(70% 0.14 154);
+  --color-error: oklch(68% 0.17 26);
+  --color-focus: oklch(76% 0.18 218);
+  --color-surface-alpha: oklch(16% 0.022 250 / 0.78);
+  --color-surface-alpha-2: oklch(22% 0.03 250 / 0.72);
+  --color-overlay: oklch(7% 0.02 250 / 0.68);
+  --color-shadow: oklch(3% 0.025 250 / 0.58);
+  --color-glow: oklch(68% 0.18 218 / 0.2);
+  --color-glow-2: oklch(73% 0.13 172 / 0.16);
+  --color-transparent: transparent;
+  --color-lang-go: oklch(70% 0.15 221);
+  --color-lang-kotlin: oklch(72% 0.18 306);
+  --color-lang-rust: oklch(68% 0.16 54);
+  --color-lang-js: oklch(86% 0.16 94);
+  --color-lang-other: oklch(68% 0.03 248);
+
+  --font-display: "Space Grotesk", "Arial Narrow", ui-sans-serif, sans-serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-3xl: 3.052rem;
+  --text-display: clamp(3.2rem, 8vw + 0.7rem, 7.1rem);
+  --text-display-s: clamp(2.45rem, 5vw + 0.7rem, 4.7rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --rule-hair: 1px;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --measure: 68ch;
+  --z-sticky: 200;
+  --z-modal: 400;
+}

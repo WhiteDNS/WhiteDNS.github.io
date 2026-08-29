@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="A professional GitHub Pages index for every public WhiteDNS repository.">
+    <title>WhiteDNS Projects</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-nav" aria-label="Primary navigation">
+        <div class="site-nav__inner">
+          <a class="brand" href="https://github.com/WhiteDNS" target="_blank" rel="noreferrer">
+            <span class="brand__mark">W</span>
+            <span class="brand__text">WhiteDNS</span>
+          </a>
+          <button class="searchpill" type="button" data-open-search aria-label="Search repositories">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="m21 21-4.3-4.3"/><circle cx="11" cy="11" r="7"/></svg>
+            <span class="searchpill__text">Search repositories</span>
+            <kbd>Ctrl K</kbd>
+          </button>
+          <nav class="nav-links" aria-label="Repository links">
+            <a class="nav-link" href="#repositories">Repositories</a>
+            <a class="nav-link" href="https://github.com/WhiteDNS" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn" href="https://github.com/WhiteDNS?tab=repositories" target="_blank" rel="noreferrer">Browse all</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero__content">
+            <p class="hero__kicker">Public routing stack · live source map</p>
+            <h1 id="hero-title">WhiteDNS source field.</h1>
+            <p class="hero__copy">A cinematic index for the WhiteDNS ecosystem: Android clients, desktop VPN work, routing engines, DNS utilities, and relay services. Search, filter, inspect details, then jump straight into the code.</p>
+            <div class="hero__actions">
+              <a class="btn" href="#repositories">View repos</a>
+              <button class="btn ghost-btn" type="button" data-open-search>Search now</button>
+            </div>
+          </div>
+          <div class="signal-stage" aria-hidden="true">
+            <div class="signal-stage__plate"></div>
+            <div class="beam beam--one"></div>
+            <div class="beam beam--two"></div>
+            <div class="node node--primary"><span><strong>13</strong> repos</span></div>
+            <div class="node node--mobile"><span><strong>VPN</strong> clients</span></div>
+            <div class="node node--edge"><span><strong>DNS</strong> tools</span></div>
+          </div>
+        </section>
+
+        <section class="stats-strip" aria-label="WhiteDNS repository totals">
+          <div class="stat"><strong data-repo-count>13</strong><span>public repositories</span></div>
+          <div class="stat"><strong data-star-count>0</strong><span>stars across the org</span></div>
+          <div class="stat"><strong data-fork-count>0</strong><span>public forks</span></div>
+          <div class="stat"><strong data-lang-count>0</strong><span>languages in use</span></div>
+        </section>
+
+        <section class="workspace" id="repositories" aria-labelledby="repo-title">
+          <div class="rail-head">
+            <div>
+              <h2 id="repo-title">Featured · Latest · By language.</h2>
+              <p data-sync-text>Snapshot mode · updating from GitHub</p>
+            </div>
+            <div class="filters" data-filters aria-label="Filter repositories by language"></div>
+          </div>
+          <div class="repo-grid" data-repo-grid></div>
+          <p class="empty-state" data-empty>No repositories match that filter. Clear the search or choose another language.</p>
+        </section>
+      </main>
+
+      <footer class="foot-stmt">
+        <p class="foot-stmt__line">Every public WhiteDNS repository, staged like a control room.</p>
+        <div class="foot-stmt__meta">
+          <span class="brand"><span class="brand__mark">W</span>WhiteDNS</span>
+          <span>Built for GitHub Pages · data from the public GitHub API</span>
+        </div>
+      </footer>
+    </div>
+
+    <div class="cmdk" data-cmdk aria-hidden="true">
+      <div class="cmdk__panel" role="dialog" aria-modal="true" aria-label="Search repositories">
+        <div class="cmdk__field">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="m21 21-4.3-4.3"/><circle cx="11" cy="11" r="7"/></svg>
+          <input data-cmdk-input type="search" placeholder="Type a repository name, language, or topic" autocomplete="off">
+          <kbd>Esc</kbd>
+        </div>
+        <div class="cmdk__results" data-cmdk-results></div>
+      </div>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
